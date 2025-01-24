@@ -1,23 +1,23 @@
-# Website Contextual Chatbot 🤖
+# Website Contextual Chatbot 
 
 ## Overview
 
 This Node.js-based chatbot is designed to intelligently scrape and analyze website content, providing contextual responses to user queries using advanced natural language processing.
 
-## Features ✨
+## Features 
 
 - **Web Scraping**: Extracts content from any specified website using `axios` and `cheerio`
 - **Intelligent Response Generation**: Leverages Hugging Face's GPT-2 model for context-aware answers
 - **Response Caching**: Improves performance by caching previous query responses
 - **User-Friendly Interface**: Simple command-line interaction for easy website exploration
 
-## Prerequisites 🛠️
+## Prerequisites 
 
 - **Node.js**: Version 14 or above
 - **npm**: Comes bundled with Node.js
 - **Hugging Face API Key**: Required for natural language processing
 
-## Installation Guide 📦
+## Installation Guide 
 
 ### 1. Clone the Repository
 
@@ -46,7 +46,7 @@ Add your Hugging Face API key:
 HF_API_KEY=your_huggingface_api_key
 ```
 
-## Obtaining a Hugging Face API Key 🔑
+## Obtaining a Hugging Face API Key 
 
 1. Visit [Hugging Face](https://huggingface.co/)
 2. Log in or create a new account
@@ -56,7 +56,7 @@ HF_API_KEY=your_huggingface_api_key
 6. Name your token (e.g., `Chatbot-Token`)
 7. Copy and securely store the generated token
 
-## Running the Chatbot 🚀
+## Running the Chatbot 
 
 ### Start the Application
 
@@ -79,20 +79,11 @@ npm start
 
 3. To end the session, type `quit`
 
-## Security Considerations 🔒
+## Security Considerations 
 
 - Keep your Hugging Face API key confidential
 - Do not commit the `.env` file to version control
 - Consider using environment-specific configurations for different deployment stages
 
-## Contributing 🤝
-
-Contributions are welcome! Please submit pull requests or open issues to suggest improvements or report bugs.
-
-## License 📄
-
-MIT
-
-## Contact 📬
-
-[saurabh bisht](mailto:saurabhbisht076@gmail.com)
+## Contact 
+[vinay singh bisht](mailto:vinaysinghbisht17@gmail.com)
